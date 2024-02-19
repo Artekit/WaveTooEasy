@@ -368,8 +368,8 @@ void setup()
 	}
 
 	Audio.begin(sample_rate);
-	Audio.setSpeakersVolume(0);
-	Audio.setHeadphoneVolume(0);
+	Audio.setSpeakersVolume(speakers_volume_db);
+	Audio.setHeadphoneVolume(headphone_volume_db);
 
 	delay(500);
 
